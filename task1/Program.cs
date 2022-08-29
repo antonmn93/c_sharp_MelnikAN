@@ -6,9 +6,9 @@
 // a = 9; b = - 3 - > да
 // a = -3; b = 9 - > нет
 
-Console.Write ("Введите целое число: ");
-int a = Convert.ToInt32(System.Console.ReadLine());
-Console.Write("Введите еще одно число: ");
-int b = Convert.ToInt32(System.Console.ReadLine()); 
-if(b*b == a) Console.WriteLine($"число {a} является квадратом числа {b}");
-else Console.WriteLine($"число {a} Не является квадратом числа {b}");
+Console.Write("Введите целое число ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите еще одно число ");
+int b = Convert.ToInt32(Console.ReadLine());
+if(b*b == a) Console.Write($"Число {a} является квадратом числа {b}");
+else Console.Write($"Число {a} не является квадратом числа {b}");
