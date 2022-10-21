@@ -7,7 +7,8 @@
 // -3->9
 // -7->49
 
-Console.Write("Введите целое ччисло ");
-int a = Convert.ToInt32(Console.ReadLine());
-int square = a*a;
-Console.Write($"Квадрат числа {a} = {square}");
+Console.WriteLine("Введите целое число");
+int nun = Convert.ToInt32(Console.ReadLine());
+int square = nun*nun;
+Console.Write($"Квадрат числа {nun} = {square}");
+
