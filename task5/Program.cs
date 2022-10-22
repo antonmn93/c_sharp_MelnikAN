@@ -4,15 +4,13 @@
 // 782 -> 2
 // 918 -> 8
 
-Console.WriteLine("Ввидете 3-х значное число");
-int a = int.Parse(Console.ReadLine());
-
+Console.WriteLine("Введите трех значное чило");
+int a = Convert.ToInt32(Console.ReadLine());
 if (a < 0)
 {
-    Console.WriteLine($"Крайняя цифра введеного числа: {a * -1 % 10}");
+    Console.WriteLine($"Последняя цифра трехзначного числа {a * - 1 % 10}");
 }
-else
+else 
 {
-    Console.WriteLine($"Крайняя цифра введеного числа: {a % 10}");
+    Console.WriteLine($"Последняя цифра трехзначного числа {a % 10}");
 }
-

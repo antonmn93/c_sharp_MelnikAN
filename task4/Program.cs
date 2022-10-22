@@ -47,3 +47,22 @@
 //     Console.Write(nun2+ " " );
 //     nun2++;
 // }
+
+Console.WriteLine("Введите целое число");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Вывод чисел в промежутке от N до N");
+for (int i = -a; i <= a; i++)
+{
+    Console.Write(i+ " ");
+}
+
+// Console.WriteLine("Введите целое число");
+// int nun = Convert.To2Int32(Console.ReadLine());
+// int nun2 = - nun;
+// while (nun2 <= nun)
+// {
+//     Console.Write(nun2 + " ");
+//     nun2++
+// ;
+// }

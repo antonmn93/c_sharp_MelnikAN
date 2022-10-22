@@ -6,6 +6,14 @@
 // a = 9; b = - 3 - > да
 // a = -3; b = 9 - > нет
 
-Console.Wr\
+Console.WriteLine("Введите целое число");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите еще одно число");
+int b = Convert.ToInt32(Console.ReadLine());
+
+if (b*b == a) Console.WriteLine($"Число {a} является квадратом числа {b}");
+else Console.WriteLine($"Число {a} не является квадратом числа {b}");
+
 
  
